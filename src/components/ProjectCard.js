@@ -8,12 +8,12 @@ function ProjectCard(props) {
           
             <h2>{props.title}</h2>
             <img
-              className="float"
+              className="float col-sm-12"
               src={require(`../assets/images/${props.image}.png`).default}
               alt="screenshot of project"
             />
             
-            <p className="info ">{props.info}</p>
+            <p className="info col-sm-12">{props.info}</p>
             <a href={props.github} className="NavLink" target="_blank" rel="noopener noreferrer">
               GitHub Repo
             </a>

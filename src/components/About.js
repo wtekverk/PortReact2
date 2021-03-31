@@ -1,20 +1,21 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
-
+import {Route, Switch} from "react-router-dom"
+import PDF from '../assets/PDFs/CodingResumePDF.pdf';
 const About = () => {
 	return (
 		<>
 			<br />
-			<div className="container border text">
+			<div className="aboutContainer container border text">
 				<content className="row">
 					<div className="col-sm-12 col-md-9 col-lg-9">
 						<div className="row">
-							<div className="col-sm-12 col-md-9 col-lg-9">
-								<h1>About Me</h1>
+							<div className="">
+								<h1 className="aboutHeader">About Me</h1>
 							</div>
 						</div>
-						<div className="row">
+						<div className="row ">
 							<div className="col-sm-12 col-md-3 col-lg-3">
 								<img
 									src={require("../assets/images/self.png").default}
@@ -22,7 +23,7 @@ const About = () => {
 									alt="girl with blueberries"
 								/>
 							</div>
-							<div className="col-sm-12 col-md-6 col-lg-6">
+							<div className="aboutText col-sm-12 col-md-9 col-lg-9">
 								<p>
 									I am a geologist, baker, teacher that is borderline obsessed
 									with my dogs. My partner and I spend all of our extra time
@@ -61,9 +62,9 @@ const About = () => {
 									</a>
 								</li>
 								<li id="navLink ">
-									<Nav.Link to="../assets/PDFs/CodingResumePDF.pdf">
+									<a href ={PDF}>
 										Resume
-									</Nav.Link>
+									</a>
 								</li>
 							</ul>
 						</div>
