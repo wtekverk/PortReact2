@@ -1,0 +1,49 @@
+body {
+    font-family: "Bodoni Moda", serif;
+    color: antiquewhite;
+    background-image: url(https://media.istockphoto.com/photos/blue-abstract-background-or-texture-picture-id1138395421?k=6&m=1138395421&s=612x612&w=0&h=bJ1SRWujCgg3QWzkGPgaRiArNYohPl7-Wc4p_Fa_cyA=);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  aside {
+  color: #5f5e5e;
+  }
+  
+  content li {list-style: none}
+
+  img {
+    float: left;
+    height: auto;
+    width: 300px;
+  }
+
+
+  .NavLink {color:#c2c2c2;
+  }
+  
+
+  
+  
+  .col {color: #5f5e5e
+  }
+  
+  .border {padding: 10px}
+  
+  .navbar-brand {
+    font-family: "Parisienne", cursive;
+    font-size: 34;
+  }
+  
+  .WT {
+    font-size: 42px;
+    color: rgb(200, 217, 248);
+  }
+  
+  .text {
+color: antiquewhite
+
+  }
+
+  

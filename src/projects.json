@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Feedeorology",
+        "deployed": "https://sclark417.github.io/Feederology/",
+        "github": "https://github.com/sclark417/Feederology",
+        "image": "Feedeorology",
+        "info": "This is a recipe app that helps you find a recipe based on the weather!",
+        "id": 1
+    },
+    {
+        "title": "Weather Dashboard",
+        "deployed": "https://github.com/wtekverk/Weather_App",
+        "github": "https://wtekverk.github.io/Weather_App/",
+        "image": "WeatherDash",
+        "info": "This application uses the OpenWeatherMap API find the weather in cities all over the world.",
+        "id": 2
+    },
+    {
+        "title": "Random Password Generator",
+        "deployed": "https://github.com/Tevvels/Brawndo",
+        "github": "https://brawndoplant.herokuapp.com/garden",
+        "image": "Brawndo",
+        "info": "This app keeps track for you! Making sure your plants stay up to date on waterings so you don't have to have a green thumb to have luscious plants.",
+        "id": 3
+    },
+    {
+        "title": "Day Planner",
+        "deployed": "https://github.com/wtekverk/TrackYourHealth",
+        "github": "https://fast-escarpment-55652.herokuapp.com/?id=60521d48123707001509160a",
+        "image": "FitTrack",
+        "info": "Need to keep track of your fitness and workouts? This is your app!",
+        "id": 4
+    },
+    {
+        "title": "Budget Tracker",
+        "deployed": "https://github.com/wtekverk/BudgetingWizard",
+        "github": "https://cryptic-mesa-54909.herokuapp.com/",
+        "image": "Budget",
+        "info": "Need help balancing the budget? Even offline? Budget tracker is there for you.",
+        "id": 5
+    },
+    {
+        "title": "Track A Burger",
+        "deployed": "https://github.com/wtekverk/TrackABurger",
+        "github": "https://vast-gorge-52659.herokuapp.com/",
+        "image": "Burger",
+        "info": "This app keeps track of how many burgers you have and have eaten.",
+        "id": 6
+    }
+]
